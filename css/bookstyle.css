@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#popup{
+    width: 400px;
+    height: 300px;
+    background-color: beige;
+    color: black;
+    border-radius: 5px;
+    line-height: 300px;
+}
+body{
+    background-color: bisque;
+}
+*{
+    color: #000;
+}

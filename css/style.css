@@ -1,0 +1,27 @@
+section{
+    background-image: url("../img/A87CCB03-0D85-4D85-B480-994D06EA62DB.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.log-container{
+    border: solid rgba(255,255,255,0.15) 2px;
+    border-radius: 3px;
+    background:linear-gradient(90deg,rgba(255,255,255,0.2) 0 ,rgba(255,255,255,0.1) 100%);
+}
+h1{
+    color: antiquewhite;
+}
+.customize{
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(90deg,rgba(255, 228, 196,0.6) 0 ,rgba(255, 228, 196,0.3));
+    border:  4px solid beige;
+    border-radius: 15px;
+    line-height: 22;
+}
+#layer{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+i{
+    cursor: pointer;
+}

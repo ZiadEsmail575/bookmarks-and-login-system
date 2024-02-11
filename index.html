@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="">
+    <section class="min-vh-100 p-5 d-flex align-items-center justify-content-center flex-column" id="logPage">
+        <h1 class="text-center mb-5">Your BookMark</h1>
+<div class="w-75 mx-auto log-container p-5">
+    <div class="form-group mb-4">
+        <input type="email" placeholder="Enter Your E-mail" id="emailInput" class="form-control">
+        <p class="text-danger d-none invalid-text">Please enter a valid email (ex: example@gmail.com | example12@gmail.com)</p>
+        <p class="valid-text text-success d-none">correct</p>
+    </div>
+
+    <div class="form-group mb-5">
+        <input type="password" placeholder="Enter Your password" id="passInput" class="form-control">
+        <p class="text-danger d-none invalid-pass">Please enter a valid Password (consist Atleast 2 uppercase and speacial chars)</p>
+        <p class="valid-pass text-success d-none">strong</p>
+    </div>
+
+    <button class="btn btn-outline-dark w-100 mb-3" id="logInBtn">logIn</button>
+
+    <p class="text-white mx-auto">Don`t have an account? <a href="" class="text-decoration-none text-white" id="signUpAnchor">signup</a></p>
+</div>
+    </section>
+
+    <section class="min-vh-100 p-5  align-items-center justify-content-center flex-column d-none" id="signUpPage">
+        <h1 class="text-center mb-5">Create Account</h1>
+        <div class="w-75 mx-auto log-container p-5">
+            <div class="form-group mb-4">
+                <input type="text" placeholder="Enter Your name" id="nameInput" class="form-control">
+                <p class="text-danger d-none invalid-name">Name must start with capitale letter</p>
+        <p class="valid-name text-success d-none">correct</p>
+            </div>
+            <div class="form-group mb-4">
+                <input type="email" placeholder="Enter Your email" id="emailInput2" class="form-control">
+                <p class="text-danger d-none invalid-emailtwo">Please enter a valid email (ex: example@gmail.com | example12@gmail.com)</p>
+        <p class="valid-emailtwo text-success d-none">correct</p>
+            </div>
+
+            <div class="form-group mb-5">
+                <input type="password" placeholder="Enter Your password" id="passInput2" class="form-control">
+                <p class="text-danger d-none invalid-passtwo">Please enter a valid Password (consist Atleast 2 uppercase and speacial chars)</p>
+        <p class="valid-passtwo text-success d-none">strong</p>
+            </div>
+            <button class="btn btn-outline-dark w-100 mb-3" id="signupBtn">sign up</button>
+            <p class="text-white mx-auto">you have an account? <a href="" class="text-decoration-none text-white" id="signInAnchor">signin</a></p>
+        </div>
+            </section>
+            <div class="position-fixed bottom-0 top-0 start-0 end-0 d-none align-items-center justify-content-center" id="layer">
+                <div class="customize mx-auto p-3 position-relative">E-mail or Password you enter is in correct  <a href="" class="text-decoration-none text-white" id="signUp">signup</a> <i class="fa-solid fa-circle-xmark fs-4 p-2 text-white position-absolute top-0 end-0 close"></i></div>
+            </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
